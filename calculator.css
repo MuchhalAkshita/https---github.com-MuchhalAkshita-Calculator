@@ -1,0 +1,26 @@
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: rgb(243, 157, 43);
+    color:azure;
+    font-size: 25px;
+    font-weight: 600;
+    border-width: 0px;
+}
+button:hover{
+    background-color: rgb(236, 201, 110);
+}
+input{
+    width: 230px;
+    height: 40px;
+    margin: 5px;
+    background-color: lightslategray;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 10px;
+    color:azure;
+    font-size: 30px;
+    font-weight: 600;
+}

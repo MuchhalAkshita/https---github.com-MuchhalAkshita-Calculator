@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div id="calculator" style="border-width: 2px; background-color: rgb(36, 35, 35); width: 260px; padding-left: 7px; border-radius: 10px;">
+            <input type="text" id="display" readonly>
+            <div>
+                <button onclick="ToAppendDisplay('+')">+</button>
+                <button onclick="ToAppendDisplay('1')">1</button>
+                <button onclick="ToAppendDisplay('2')">2</button>
+                <button onclick="ToAppendDisplay('3')">3</button>
+            </div>
+            <div>
+                <button onclick="ToAppendDisplay('-')">-</button>
+                <button onclick="ToAppendDisplay('4')">4</button>
+                <button onclick="ToAppendDisplay('5')">5</button>
+                <button onclick="ToAppendDisplay('6')">6</button>
+            </div>
+            <div>
+                <button onclick="ToAppendDisplay('*')">*</button>
+                <button onclick="ToAppendDisplay('7')">7</button>
+                <button onclick="ToAppendDisplay('8')">8</button>
+                <button onclick="ToAppendDisplay('9')">9</button>
+            </div>
+            <div>
+                <button onclick="ToAppendDisplay('/')">/</button>
+                <button onclick="ToAppendDisplay('.')">.</button>
+                <button onclick="ToAppendDisplay('0')">0</button>
+                <button onclick="calculate()">=</button>
+            </div>
+            <div>
+                <button onclick="DisplayClear()">C</button>
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
